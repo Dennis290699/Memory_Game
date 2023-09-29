@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="../assets/icons/brain.png">
+    
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/game.css">
+
+    <script defer src="../js/game.js"></script>
+
+    <title>Memory Game</title>
+
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <span class="player"></span>
+            <span>Time: <span class="timer" id="timer">00:00</span></span>
+        </header>
+
+        <div class="grid"></div>
+    </main>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-message"></p>
+            <div class="modal-buttons">
+                <button id="retry-button">Reintentar</button>
+                <button id="exit-button">Salir</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
