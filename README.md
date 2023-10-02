@@ -11,7 +11,7 @@ Memory Game es un juego de memoria simple construido con HTML, CSS y JavaScript.
 
 ## Demo
 
-Puedes probar la aplicación en vivo aquí: [Profile Editor Demo](https://memory-game-nine-xi.vercel.app/)
+Puedes probar la aplicación en vivo aquí: [Memory Game Demo](https://memory-game-nine-xi.vercel.app/)
 
 ## Capturas de Pantalla
 
