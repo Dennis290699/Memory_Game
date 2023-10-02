@@ -1,4 +1,4 @@
-.login-form{
+.login-form {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.login_header{
+.login_header {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     margin-bottom: 50px;
 }
 
-.login_header img{
+.login_header img {
     width: 100px;
 }
 
@@ -22,25 +22,27 @@
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.2);
     }
+
     100% {
         transform: scale(1);
     }
 }
 
 .login_header img {
-    animation: pulse 3s infinite; /* Aplicar la animación de pulso en bucle cuando el usuario pasa el mouse por encima */
+    animation: pulse 3s infinite;
     cursor: pointer;
 }
 
-.login_header h1{
+.login_header h1 {
     color: #333;
     font-size: 1.5em;
 }
 
-.login_input{
+.login_input {
     border: 2px solid #333;
     border-radius: 8px;
     color: #333;
@@ -52,7 +54,7 @@
     width: 100%;
 }
 
-.login_button{
+.login_button {
     background-color: #ee665c;
     border-radius: 8px;
     color: #fff;
@@ -63,7 +65,7 @@
     width: 100%;
 }
 
-.login_button:disabled{
+.login_button:disabled {
     background-color: #eee;
     color: #aaa;
     cursor: auto;
